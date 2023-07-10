@@ -1,0 +1,324 @@
+@font-face {
+  font-family: "SVN"; 
+  src: url("./fonts/SVN-Helvetica\ Neue\ Heavy.ttf") format("truetype"); 
+  font-style: normal; 
+  font-weight: 900; 
+  } 
+
+.adbro-header__container{
+  /*  background: #C4C4C4;
+    width: 903px;
+    height: 422px; */
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    z-index: -1;
+}
+
+.adbro-header__container-main{
+  background: #C4C4C4;
+  width: 903px;
+  height: 422px;
+  margin: auto;
+  position: relative;
+  display: flex;
+  z-index: -1;
+  /* align-content: flex-end; */
+  /* flex-direction: row; */
+  align-items: end;
+  justify-content: center;
+}
+.adbro-header__bottles{
+  position: absolute;
+  width: 79px;
+}
+
+
+.adbro-header__title{
+  font-family: 'SVN';
+  margin: 0;
+  color: #CAAA6C;
+  font-size: 18px;
+font-style: normal;
+font-weight: 900;
+-webkit-text-stroke: 0.8px black;
+}
+
+.adbro-header__container_text{
+  width: 226px;
+  height: 37px;
+  background-color: white;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 3px solid;
+  margin-bottom: 16px;
+  margin-right: 309px;
+}
+
+.adbro-header__logo{
+  position: absolute;
+  margin-left: 180px;
+  margin-bottom: 6px;
+}
+.adbro-header__boat{
+  position: absolute;
+  margin-left: 370px;
+}
+
+.adbro-header__container_btn{
+  position: absolute;
+  width: 78px;
+  height: 22px;
+  border-radius: 20px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+  margin-left: 385px;
+  animation: ani-btn 3s infinite 3s;
+
+}
+
+.adbro-header__btn{
+  font-family: 'Roboto', sans-serif;
+  color: #FF0F12;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+@keyframes ani-btn {
+  0% {transform: translateX(0%);}
+  15% {transform: translateX(5%);}
+  30% {transform: translateX(-5%);}
+  45% {transform: translateX(3%);}
+  60% {transform: translateX(-3%);}
+  75% {transform: translateX(1%);}
+  85% {transform: translateX(-1%);}
+  100% {transform: translateX(0);}
+}
+
+.adbro-header__icon{
+  position: absolute;
+  margin-bottom: 50px;
+  margin-left: 520px;
+}
+/* transform: scale(-1, 1)*/
+.adbro-header__fish{
+  position: absolute;
+/*  animation: move 3s infinite linear; */
+}
+
+@keyframes move{
+  0%{
+    transform: scale(1) 
+    
+  }
+  25%{
+    transform: scale(1.3) 
+  }
+  50%{
+    transform: scale(1.5) 
+  }
+  75%{
+    transform: scale(1.3) 
+  }
+  10%{
+    transform: scale(1) 
+  }
+
+} 
+
+@keyframes move2{
+  0%{
+    transform: scale(1)  rotate(-45deg)
+    
+  }
+  25%{
+    transform: scale(1.3) rotate(-45deg)
+  }
+  50%{
+    transform: scale(1.5) rotate(-45deg)
+  }
+  75%{
+    transform: scale(1.3) rotate(-45deg)
+  }
+  100%{
+    transform: scale(1) rotate(-45deg)
+  }
+
+} 
+
+
+
+@keyframes move3{
+  0%{
+    transform: scale(1) scale(-1, 1) rotate(-45deg)
+    
+  }
+  25%{
+    transform: scale(1.3) scale(-1, 1) rotate(-45deg)
+  }
+  50%{
+    transform: scale(1.5) scale(-1, 1) rotate(-45deg)
+  }
+  75%{
+    transform: scale(1.3) scale(-1, 1) rotate(-45deg)
+  }
+  100%{
+    transform: scale(1) scale(-1, 1) rotate(-45deg)
+  }
+
+} 
+@keyframes move4{
+  0%{
+    transform: scale(1) scale(-1, 1)
+    
+  }
+  25%{
+    transform: scale(1.3) scale(-1, 1)
+  }
+  50%{
+    transform: scale(1.5) scale(-1, 1)
+  }
+  75%{
+    transform: scale(1.3) scale(-1, 1)
+  }
+  100%{
+    transform: scale(1) scale(-1, 1)
+  }
+
+} 
+
+.adbro-header__fish-one{
+  margin-right: 405px;
+  margin-bottom: 48px;
+  animation: move 3s infinite linear
+
+}
+.adbro-header__fish-second{
+  animation: move2 3s infinite linear ;
+  transform: rotate(-45deg);
+  margin-right: 210px;
+  margin-bottom: 53px;
+  
+}
+
+
+.adbro-header__fish-three{
+  animation: move3 3s infinite linear;
+  transform: scale(-1, 1) rotate(-45deg) ;
+  margin-left: 175px;
+  margin-bottom: 67px;
+}
+.adbro-header__fish-four{
+  animation: move4 3s infinite linear;
+  transform: scale(-1, 1) ;
+  margin-left: 392px;
+  margin-bottom: 56px;
+}
+
+
+.adbro-header__container{
+  text-align: center;
+  color: black;
+  animation: h1 1s;
+}
+
+
+
+@keyframes h1{
+  0%{
+    opacity: 0;
+    transform:translateY(-9000px);
+  }
+
+  50%{
+    opacity: 0;
+    transform:translateY(100px);
+  }
+  100%{
+    opacity: 1;
+    transform: translateY(0px);
+  }
+}
+
+
+.adbro-scroll__cards{
+  margin-top: 75px;
+  display: flex;
+  min-width: 0; 
+  width: 760px;
+  height: 291px;
+  position: relative;
+  transition: all ease 1s;
+}
+
+
+.adbro-scroll__card{
+  position: relative;
+  width: 180px;
+  height: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow:
+        0.3em 0.3em 1em rgba(0,0,0,0.3);
+  margin-right: 10px;
+}
+
+.adbro-scroll__text{
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  text-align: center;
+  height: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.adbro-scroll{
+  position: relative;
+  text-align: -webkit-center;
+}
+
+.adbro-slider{
+  width: 570px;
+  overflow: hidden;
+  position: relative;
+}
+
+.adbro-scroll__image{
+  width: 180px;
+  height: 180px;
+}
+
+.adbro-scroll__btn{
+  width: 162px;
+height: 37.179px;
+  border-radius: 3px;
+border: 0.86px solid #C2C2C2;
+background: #F6F6F6;
+margin-bottom: 10px;
+}
+
+.adbro-scroll__logo{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.adbro-scroll__btn_next{
+  position: absolute;
+  top: 195px;
+right: 0;
+
+}
